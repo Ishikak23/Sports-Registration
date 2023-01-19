@@ -1,11 +1,12 @@
 const Footer = () => {
-    return (
-      <div className="footer">
-        <div style={{color:'white'}}> Copyright {new Date().getFullYear()}
-        </div>
+  return (
+    <div className="footer">
+      <div style={{ color: "white" }}>
+        {" "}
+        Copyright {new Date().getFullYear()}
       </div>
-    );
-  };
-  
-  export default Footer;
-  
+    </div>
+  );
+};
+
+export default Footer;

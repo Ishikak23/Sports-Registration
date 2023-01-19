@@ -1,8 +1,5 @@
 const ShowAlert = (props) => {
-    const {
-        title,
-        description,
-    }=props
+  const { title, description } = props;
   return (
     <div
       style={{
@@ -41,8 +38,7 @@ const ShowAlert = (props) => {
               size: "15px",
             }}
           >
-          <strong>{title}</strong>
-            
+            <strong>{title}</strong>
           </div>
 
           <div
